@@ -1,9 +1,66 @@
 {
-	"gender":"male",
-	"verified":"false"
-	"name":{
-		"first":"",
-		"last":""
-	}
-	
+    "message": "Successful",
+    "data": [
+        {
+            "leaf": false,
+            "text": "Building_Code",
+            "expanded": true,
+            "buildingDetails": [
+                {
+                    "text": "",
+                    "leaf": true
+                },
+                {
+                    "leaf": false,
+                    "floor": [
+                        {
+                            "text": "BT Floor",
+                            "leaf": true
+                        },
+                        {
+                            "text": "TM Floor",
+                            "leaf": true
+                        }
+                    ],
+                    "text": "Floors",
+                    "expanded": false
+                }
+            ]
+        },
+		{
+            "leaf": false,
+            "text": "Building_Code",
+            "expanded": true,
+            "buildingDetails": [
+                {
+                    "text": "",
+                    "leaf": true
+                },
+                {
+                    "leaf": false,
+                    "floor": [
+                        {
+                            "text": "BT Floor",
+                            "leaf": true
+                        },
+                        {
+                            "text": "TM Floor",
+                            "leaf": true
+                        }
+                    ],
+                    "text": "Floors",
+                    "expanded": false
+                }
+            ]
+        }
+    ],
+    "status": {
+        "statusMessage": "Successful",
+        "statusCode": "200",
+        "messageKey": "successful",
+        "statusLevel": "Info"
+    },
+    "success": true,
+    "totalCount": 0,
+    "validation": false
 }

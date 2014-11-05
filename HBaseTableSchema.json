@@ -1,0 +1,43 @@
+{
+    "data": [
+        {
+            "tablename": "SimpleKPI",
+            "columnFamily": [
+                {
+                    "columnFamilyName": "cf1",
+                    "columnFamilyProperty": {
+                        "minVersions": "2",
+                        "maxVersions": "8"
+                    }
+                },
+                {
+                    "columnFamilyName": "cf2",
+                    "columnFamilyProperty": {
+                        "minVersions": "2",
+                        "maxVersions": "8",
+                        "keepDeletedCells": true
+                    }
+                }
+            ]
+        },
+        {
+            "tablename": "CompoundKPI",
+            "columnFamily": [
+                {
+                    "columnFamilyName": "cf1",
+                    "columnFamilyProperty": {
+                        "minVersions": "2",
+                        "maxVersions": "8"
+                    }
+                },
+                {
+                    "columnFamilyName": "cf2",
+                    "columnFamilyProperty": {
+                        "minVersions": "2",
+                        "maxVersions": "8"
+                    }
+                }
+            ]
+        }
+    ]
+}

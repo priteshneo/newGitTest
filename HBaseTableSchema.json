@@ -15,10 +15,12 @@
                     "columnFamilyProperty": {
                         "minVersions": "2",
                         "maxVersions": "8",
-                        "keepDeletedCells": true
+                        "keepDeletedCells": "true"
                     }
                 }
-            ]
+            ],
+            "property1": "",
+            "property2": ""
         },
         {
             "tablename": "CompoundKPI",
@@ -37,7 +39,9 @@
                         "maxVersions": "8"
                     }
                 }
-            ]
+            ],
+            "property1": "",
+            "property2": ""
         }
     ]
 }
